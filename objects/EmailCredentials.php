@@ -1,9 +1,25 @@
 <?php
-
+/**
+ * MySql-Data-Exporter - A PHP script that exports the stored data of a user from the mysql database.
+ *
+ *
+ * @see       https://github.com/MrCodingMen/MySql-Data-Exporter The MySql-Data-Exporter GitHub project
+ *
+ * @author    Nils G. (original founder) <MySqlDataExporter@mrcodingmen.de>
+ * @copyright 2019 - 2020 Nils G.
+ * @license   http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
+ * @note      This program is distributed in the hope that it will be useful - WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE.
+ */
 
 namespace mrcodingmen\dataexporter\objects;
 
-
+/**
+ * MySql-Data-Exporter - A PHP script that exports the stored data of a user from the mysql database.
+ *
+ * @author    Nils G. (original founder) <MySqlDataExporter@mrcodingmen.de>
+ */
 class EmailCredentials
 {
     protected $host;
