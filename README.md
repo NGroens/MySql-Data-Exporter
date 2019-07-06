@@ -31,7 +31,7 @@
     */
     $EmailCredentials = new EmailCredentials(
     "email-host", // email hostname
-    "email-port[25]", // email server port
+    25, // email server port
     "username", // username from the email account
     "password", // password from the email account
     "MySqlDataExporter@mrcodingmen.de", // email which is shown in the e-mail
