@@ -115,5 +115,14 @@ You can report bugs by email, twitter or discord.
 
     
     
-## License
-This software is distributed under the [LGPL 2.1](http://www.gnu.org/licenses/lgpl-2.1.html) license, along with the [GPL Cooperation Commitment](https://gplcc.github.io/gplcc/). Please read LICENSE for information on the software availability and distribution.
+-----
+
+### <center>**Legal Information**</center>
+
+-----
+
+Please read the <a href="https://github.com/MrCodingMen/MySql-Data-Exporter/blob/master/LICENSE">**License-File**</a>.<br>
+Apache-License-2.0 Summary <a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">**Click here**</a><br>
+For further information contact me on Discord 'MrCodingMen#5821' <br>or send an E-Mail to <a href="mailto:MySqlDataExporter@mrcodingmen.de">MySqlDataExporter@mrcodingmen.de</a>.
+
+-----

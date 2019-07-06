@@ -7,7 +7,7 @@
  *
  * @author    Nils G. (original founder) <MySqlDataExporter@mrcodingmen.de>
  * @copyright 2019 - 2020 Nils G.
- * @license   http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
+ * @license   https://tldrlegal.com/license/apache-license-2.0-(apache-2.0) Apache-License-2.0
  * @note      This program is distributed in the hope that it will be useful - WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
  * FITNESS FOR A PARTICULAR PURPOSE.
