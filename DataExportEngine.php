@@ -104,13 +104,21 @@ class DataExportEngine
 
         try {
             $mail->isSMTP();
+            $mail->CharSet = 'utf-8';
             $mail->Host = $this->emailcredentials->getHost();
             $mail->SMTPAuth = $this->emailcredentials->getSMTPAuth();
             $mail->Username = $this->emailcredentials->getUsername();
             $mail->Password = $this->emailcredentials->getPassword();
             $mail->SMTPSecure = $this->emailcredentials->getSMTPSecure();
             $mail->Port = $this->emailcredentials->getPort();
-
+            // Enable SMTP authentication
+            $mail->SMTPOptions = array(
+                'ssl' => array(
+                    'verify_peer' => false,
+                    'verify_peer_name' => false,
+                    'allow_self_signed' => true
+                )
+            );
             $mail->setFrom($this->emailcredentials->getSendFromEmail(), $this->emailcredentials->getSendFromName());
             $mail->addAddress($EmailReceiver->getEmail(), $EmailReceiver->getName());
 
