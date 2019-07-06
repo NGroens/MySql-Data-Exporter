@@ -61,7 +61,7 @@ class DataExportEngine
 
             if (isset($tables[0])) {
 
-                if (!file_exists($exportdir)) mkdir($exportdir);
+                if (!file_exists($exportdir)) mkdir($exportdir,0755,true);
 
 
                 $zip = new ZipArchive;
