@@ -8,6 +8,10 @@
         include "objects/EmailCredentials.php";
         include "objects/EmailReceiver.php";
      ```
+   or now
+    ```php
+           include "DataExporter.min.php";  
+    ```
     
 # Usage
 ### Start by creating all required variables
