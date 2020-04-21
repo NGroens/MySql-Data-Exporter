@@ -30,7 +30,7 @@
     include "objects/EmailReceiver.php";
     
     /**
-    *Only required when the file is sent by email
+    *Only required if the file is sent by email
     *For more information about the following data please see the documentation of the library PHPMailer (https://github.com/PHPMailer/PHPMailer/blob/master/docs/README.md)
     */
     $EmailCredentials = new EmailCredentials(
