@@ -38,7 +38,7 @@
     25, // email server port
     "username", // username from the email account
     "password", // password from the email account
-    "MySqlDataExporter@mrcodingmen.de", // email which is shown in the e-mail
+    "MySqlDataExporter@mycoding.systems", // email which is shown in the e-mail
     "MySql-Data-Exporter",// sender name which is shown in the e-mail 
     "Email-Layout with @content; patter", // e-mail layout. Available patters: @content; for the content
     true, // SMTP-Auth[true,false]
@@ -99,8 +99,8 @@ $DataExportEngine->exportData(
          new EmailReceiver(
              "export-data@mycoding.dev", // email address of the receiver of the data
              "Your personal data", // subject from the email
-             "MrCodingMen", // the name of the receiver which is shown in the e-mail
-             "<h1>Hello MrCodingMen,</h1><br>Here your requested data :D" // content of the email. @content; will be replaced with this content
+             "NGroens", // the name of the receiver which is shown in the e-mail
+             "<h1>Hello NGroens,</h1><br>Here your requested data :D" // content of the email. @content; will be replaced with this content
          ), 
          true, // true if the file should be deleted after sending. 
     
@@ -114,7 +114,6 @@ You can report bugs by email, twitter or discord.
 
 * Email: MySqlDataExporter@mrcodingmen.de
 * Discord: https://discord.gg/npDsnXs
-* Twitter: https://twitter.com/MrCodingMenYT
 
 
     
@@ -127,6 +126,6 @@ You can report bugs by email, twitter or discord.
 
 Please read the <a href="https://github.com/MrCodingMen/MySql-Data-Exporter/blob/master/LICENSE">**License-File**</a>.<br>
 Apache-License-2.0 Summary <a href="https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)">**Click here**</a><br>
-For further information contact me on Discord 'MrCodingMen#5821' <br>or send an E-Mail to <a href="mailto:MySqlDataExporter@mrcodingmen.de">MySqlDataExporter@mrcodingmen.de</a>.
+For further information contact me on Discord 'MrCodingMen#5821' <br>or send an E-Mail to <a href="mailto:MySqlDataExporter@mycoding.systems">MySqlDataExporter@mycoding.systems</a>.
 
 -----
